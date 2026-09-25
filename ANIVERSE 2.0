@@ -1,0 +1,21 @@
+{
+  "name": "aniverse",
+  "version": "12.1.0",
+  "description": "AniVerse anime social platform with discovery, hashtags and communities",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.1",
+    "compression": "^1.8.1",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0"
+  }
+}
